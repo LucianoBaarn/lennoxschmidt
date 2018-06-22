@@ -1,0 +1,22 @@
+.group  {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(444px, 1fr)); 
+	justify-content: space-around;
+	grid-gap: 20px;
+	// @include clearfix;
+	list-style: none;
+	padding: 0px;
+	.imagegrid {
+		// position: relative;
+		// float: left;
+		// @include imagegrid(2, 5%);
+		cursor: pointer;
+		
+	}
+}
+
+
+img {
+	width: 100%;
+	display: block;
+}
